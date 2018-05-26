@@ -1,0 +1,11 @@
+[package]
+name = "deployc-cli"
+version = "0.1.0"
+authors = ["Jeremy Jacobson <jjacobson93@gmail.com>"]
+
+[dependencies]
+clap = "2.31.2"
+
+[[bin]]
+name = "deployc"
+path = "src/main.rs"
